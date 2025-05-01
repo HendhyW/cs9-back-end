@@ -19,7 +19,9 @@ app.use('/user', require('./src/routes/user.route'));
 app.use('/item', require('./src/routes/item.route'));
 app.use('/transaction', require('./src/routes/transaction.route'));
 
-app.listen(port, () => {
-    console.log(`Server is running on port ${port}`);
-});
+// app.listen(port, () => {
+//     console.log(`Server is running on port ${port}`);
+// });
+
+module.exports = app;
 
